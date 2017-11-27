@@ -1,0 +1,22 @@
+h1{
+    color: rgb(40, 0, 187);
+    text-align: center;
+}
+caption{
+    color: black;
+    font-size: 50px;
+    
+}
+input[type='text'] {
+    border: 1px solid black;
+    width: 200px;
+    margin-left: 10px;
+}
+select{
+    border: 1px solid black;
+    width: 200px;
+}
+output{
+    border: 1px solid black;
+    width: 200px;
+}

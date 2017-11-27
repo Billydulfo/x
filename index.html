@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <LINK REL=StyleSheet HREF="estilos.css" TYPE="text/css" MEDIA=screen>
+        <script type="text/javascript" src="./prueba.js"></script>
+    </head>
+    <body>
+        <h1>Sistema de corte</h1>
+        <CENTER>
+            <TABLE id="datos">      
+                <TR><TD>Sucursal</TD><TD>Fecha</TD></TR>
+                <TR> 
+                    <TD>
+                        <select id="sucursal">
+                            <option value="Sabritas">Sabritas</option>
+                            <option value="Galletas">Galletas</option>
+                            <option value="Paletas">Paletas</option>
+                        </select>
+                    </TD> 
+                    <td><input type="date" id="txtFecha"></td>
+                </TR>
+                <tr><td>Empleado</td></tr>
+                <tr><td><input type="text" id="txtEmpleado"></td></tr>
+                <tr><td>Corte</td><td>Faltante</td></tr>
+                <tr><td><input type="text" id="txtCorte"></td><td><output type="text" id="txtFaltante"></td><td></td>
+                </tr>
+                <tr><td>Sistema</td><td>Excedente</td></tr>
+                <tr><td><input type="text" id="txtSistema"></td><td><output type="text" id="txtExcedente"></td><td></td>
+                </tr>
+            </TABLE>
+            <table>
+                <tr><td>Producto 1</td><td><input type="text" id="txtProducto1"></td><td>Piezas</td></tr>
+                <tr><td>Producto 2</td><td><input type="text" id="txtProducto2"></td><td>Piezas</td></tr>
+                <tr><td>Producto 3</td><td><input type="text" id="txtProducto3"></td><td>Piezas</td></tr>
+                <tr><td>Producto 4</td><td><input type="text" id="txtProducto4"></td><td>Piezas</td></tr>
+                <tr><td>Producto 5</td><td><input type="text" id="txtProducto5"></td><td>Piezas</td></tr>
+            </table>
+            <table>
+                <tr><td>Gasto 1</td><td><input type="text" id="txtDescrip1"></td><td><input type="text" id="txtMonto1"></td></tr>
+                <tr><td>Gasto 2</td><td><input type="text" id="txtDescrip1"></td><td><input type="text" id="txtMonto2"></td></tr>
+                <tr><td>Gasto 3</td><td><input type="text" id="txtDescrip1"></td><td><input type="text" id="txtMonto3"></td></tr>
+                <tr><td>Gasto 4</td><td><input type="text" id="txtDescrip1"></td><td><input type="text" id="txtMonto4"></td></tr>
+                <tr><td>Gasto 5</td><td><input type="text" id="txtDescrip1"></td><td><input type="text" id="txtMonto5"></td></tr>
+            </table>
+            <table>
+                <tr><td>Total</td><td><output type="text" id="txtTotal"></tr>
+                <tr><td><input type="submit" value="Enviar este formulario" onclick="generaCorte()"/></td></tr>
+            </table>
+        </CENTER>
+    
+    <div id="div3"></div>   
+    </body>
+</html>
